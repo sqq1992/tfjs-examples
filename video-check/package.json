@@ -1,0 +1,33 @@
+{
+  "name": "video-check",
+  "version": "0.1.0",
+  "description": "",
+  "dependencies": {
+    "@tensorflow-models/coco-ssd": "^2.2.2",
+    "@tensorflow/tfjs-backend-cpu": "^3.3.0",
+    "@tensorflow/tfjs-backend-webgl": "^3.3.0",
+    "@tensorflow/tfjs-converter": "^3.3.0",
+    "@tensorflow/tfjs-core": "^3.3.0",
+    "stats.js": "^0.17.0"
+  },
+  "scripts": {
+    "watch": "cross-env NODE_ENV=development parcel index.html --no-hmr --open",
+    "build": "cross-env NODE_ENV=production parcel build --no-scope-hoist index.html --public-url ./",
+    "link-local": "yalc link"
+  },
+  "devDependencies": {
+    "buffer": "^6.0.3",
+    "clang-format": "~1.2.2",
+    "cross-env": "^5.1.6",
+    "parcel": "^2.3.2",
+    "process": "^0.11.10",
+    "yalc": "~1.0.0-pre.53"
+  },
+  "browserslist": [
+    "> 1%",
+    "ie >= 11",
+    "ios >= 10",
+    "android >= 6"
+  ],
+  "repository": "git@github.com:sqq1992/tfjs-examples.git"
+}

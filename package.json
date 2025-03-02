@@ -1,0 +1,24 @@
+{
+  "name": "tfjs-examples",
+  "version": "1.0.0",
+  "description": "",
+  "dependencies": {
+    "@tensorflow/tfjs": "^4.2.0",
+    "@tensorflow/tfjs-vis": "^1.5.1",
+    "buffer": "^6.0.3",
+    "process": "^0.11.10"
+  },
+  "scripts": {
+    "watch": "parcel linear/index.html --no-hmr --open"
+  },
+  "devDependencies": {
+    "parcel": "^2.13.3"
+  },
+  "browserslist": [
+    "> 0.5%",
+    "last 2 versions",
+    "not dead",
+    "not IE 11"
+  ],
+  "repository": "git@github.com:sqq1992/tfjs-examples.git"
+}
